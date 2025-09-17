@@ -177,7 +177,8 @@ nav ul li a:hover::after{
 }
 .projects-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -356,6 +357,7 @@ form .btn2{
   .projects-list {
     grid-gap: 20px;
     margin-top: 20px;
+    grid-template-columns: 1fr;
   }
 
   .projects-list div {
